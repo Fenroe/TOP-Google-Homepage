@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+body {
+    box-sizing: border-box;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+li a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.apps-icon, .google-icon {
+    border: 1px solid hidden;
+    border-radius: 50%;
+    height: 2rem;
+}
+
+main {
+    width: 100%;
+}
+
+.logo-container {
+    min-height: 40vh;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20rem;
+    height: 20rem;
+}
+
