@@ -31,7 +31,7 @@ main {
 }
 
 .logo-container {
-    min-height: 40vh;
+    min-height: 25vh;
     width: 100%;
     position: relative;
 }
@@ -40,7 +40,31 @@ main {
     position: absolute;
     bottom: 0;
     left: 50%;
-    margin-left: -20rem;
-    height: 20rem;
+    margin-left: -11rem;
+    height: 12rem;
 }
 
+.searchbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchbar {
+    width: 30rem;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+}
+
+button {
+    margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
